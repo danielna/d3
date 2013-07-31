@@ -1,24 +1,42 @@
 <!doctype html>
 <html>
 <head>
-    <title>d3.js</title>
+    <title>Adventures in Data Viz</title>
 
-    <script type="text/javascript" src="lib/d3.v3.min.js"></script>
+    <script type="text/javascript" src="/lib/d3.v3.min.js"></script>
     <style>
         body {
-            background-color: #000;
-        }
-        #viz {
             background-color: #f2f2f2;
-            border: 1px solid #777;
+        }
+        #main {
             display: block;
+            background-color: #f2f2f2;
+            width: 800px;
             margin: 0 auto;
+            text-align: center;
+        }
+        a {
+            color: #0088cc;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: #E3F0F7;
+        }
+        #github {
+            position: fixed;
+            top: 5px;
+            left: 5px;
         }
     </style>
 </head>
 
 <body>
-    <script src="scatterplot_hover.js"></script>
+    <a href="http://www.github.com/danielna/d3" id="github">github</a>
+    <div id="main">
+        <p>
+            1. <a href="/progress/1.html">Randomly generated, randomly colored, randomly positioned floating balls.  Hover effect is also random.</a>
+        </p>
+    </div>
 </body>
 
 </html>
